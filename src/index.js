@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Landing from "./landing";
-import Projects from "./projects";
-import Contact from "./contact";
+import Landing from "./components/landing";
+import Projects from "./components/projects";
+import Contact from "./components/contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

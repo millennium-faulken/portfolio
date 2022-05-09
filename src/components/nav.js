@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import resume from "./resume.pdf";
+import resume from "../static/resume.pdf";
 import "./landing.css";
 
 function Nav() {
