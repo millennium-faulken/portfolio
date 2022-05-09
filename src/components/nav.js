@@ -29,7 +29,7 @@ function Nav() {
   }, [prevScrollPos, visible, handleScroll]);
 
   return (
-    <nav style={{ ...navbarStyles, top: visible ? "0" : "-60px" }}>
+    <nav style={{ ...navbarStyles, top: visible ? "0" : "-70px" }}>
       <div className="logo">
         <h3>justinFAULKENBERRY</h3>
       </div>
@@ -38,7 +38,7 @@ function Nav() {
           <Link to="/">About</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
-          <Link to={resume} target="_blank" rel="norefferrer">
+          <Link to={resume} target="_blank" rel="noreferrer">
             Resume
           </Link>
         </ul>

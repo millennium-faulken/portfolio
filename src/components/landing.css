@@ -11,10 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
-  background-color: #36a1d4;
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -32,6 +28,23 @@ a {
   margin: 0 0 0 25px;
   text-decoration: none;
   color: white;
+}
+
+.social-links {
+  position: fixed;
+  bottom: 0px;
+  left: 50px;
+  right: auto;
+  z-index: 11;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.social-links a {
+  margin-bottom: 15px;
+  color: #ffac4a;
 }
 
 main {
@@ -63,6 +76,9 @@ section {
 img {
   width: 300px;
   margin-left: 25px;
+  border-radius: 100%;
+  box-shadow: 5px 5px 8px 3px rgba(5, 5, 5, 0.3);
+  background-color: rgba(5, 5, 5, 0.3);
 }
 
 .landing-info h1,
