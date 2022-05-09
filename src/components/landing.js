@@ -35,8 +35,11 @@ function Landing() {
       <main>
         <section className="landing-section">
           <div className="landing-info">
-            <h1>Hey there, my name is</h1>
-            <h2 className="name">Justin Faulkenberry</h2>
+            <img src={pic} alt="This is me!" />
+            <h1>
+              Hey there, my name is
+              <span className="name">Justin Faulkenberry</span>
+            </h1>
             <hr></hr>
             <p align="right">
               I'm a driven full-stack{" "}
@@ -46,7 +49,6 @@ function Landing() {
               enthusiastic, and eager to learn new technologies and methods.
             </p>
           </div>
-          <img src={pic} alt="This is me!" />
         </section>
         <section></section>
       </main>
