@@ -2,16 +2,39 @@ import "./landing.css";
 import Nav from "./nav";
 import pic from "../static/ResumePicCircle.png";
 import hike from "../static/hike.JPG";
+import React, { useState, useEffect } from "react";
 import {
   FaLinkedin,
   FaTwitterSquare,
   FaGithubSquare,
   FaAngleDoubleDown,
+  FaAngleDoubleUp,
 } from "react-icons/fa";
 
 function Landing() {
+  const [isActive, setActive] = useState("false");
+
+  const handleClick = () => {
+    setActive(!isActive);
+  };
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 900) {
+        setActive(false);
+      } else {
+        setActive(true);
+      }
+    };
+
+    document.addEventListener("scroll", onScroll);
+    return () => {
+      document.removeEventListener("scroll", onScroll);
+    };
+  }, [isActive, setActive]);
+
   return (
-    <div className="App">
+    <div className="App" id="top">
       <header>
         <Nav />
       </header>
@@ -38,8 +61,19 @@ function Landing() {
         >
           <FaLinkedin />
         </a>
-        <a href="#about" className="downArrow">
+        <a
+          href="#about"
+          onClick={handleClick}
+          className={isActive ? "downArrow" : "hide"}
+        >
           <FaAngleDoubleDown />
+        </a>
+        <a
+          href="#top"
+          onClick={handleClick}
+          className={!isActive ? "upArrow" : "hide"}
+        >
+          <FaAngleDoubleUp />
         </a>
       </div>
       <main>
@@ -69,9 +103,9 @@ function Landing() {
               looking for a full-time position. My desire to learn to code
               started back in 2018 after my time in the military. I decided to
               enroll in a coding bootcamp and from there learned numerous
-              skills, mainly <span className="orangeText">JavaScript</span> with
-              the framework <span className="orangeText">React</span>,{" "}
-              <span className="orangeText">HTML</span>, and{" "}
+              skills, mainly <span className="orangeText">JavaScript</span>, its
+              framework <span className="orangeText">React</span>(which this
+              site is built with), <span className="orangeText">HTML</span>, and{" "}
               <span className="orangeText">CSS</span>. Since then I have also
               been persuing my degree in Computer Science, where I have learned
               even more languages such as{" "}
@@ -80,12 +114,11 @@ function Landing() {
             </p>
             <p align="right" data-aos="fade-left">
               Technologies I'm currently learning:
-              <ul>
-                <li>Go</li>
-                <li>Amazon Web Services</li>
-                <li>Unity</li>
-                <li>Php</li>
-              </ul>
+              <li>Go</li>
+              <li>Amazon Web Services</li>
+              <li>Unity</li>
+              <li>C#</li>
+              <li>Php</li>
             </p>
           </div>
           <h1 align="right" data-aos="fade-left">
@@ -95,10 +128,10 @@ function Landing() {
             <img src={hike} alt="Redwood Hike" data-aos="fade-right" />
             <p data-aos="fade-left">
               Some of my other interests include{" "}
-              <span className="orangeText">astronomy</span>, hiking, history,
-              movies, reading, <span className="orangeText">robotics</span>,
-              running, swimming, and{" "}
-              <span className="orangeText">travelling</span>.
+              <span className="orangeText">astronomy</span>,{" "}
+              <span className="orangeText">hiking</span>, history, movies,
+              reading, <span className="orangeText">robotics</span>, running,
+              swimming, and <span className="orangeText">travelling</span>.
               <br />
               <br />
               My dream and long-term goal is to one day start a robotics company
