@@ -1,0 +1,35 @@
+.projects {
+  margin: 55px auto 0px auto;
+}
+
+.projectsTitle {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.divProject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+.projects img {
+  width: 500px;
+}
+
+.bubble h2 {
+  font-family: "Fugaz One", cursive;
+  color: #ffac4a;
+}
+
+.urgent h2 {
+  font-family: "Knewave", cursive;
+  font-weight: lighter;
+  color: #ffac4a;
+}
+
+.messages h2 {
+  font-family: "Caveat", cursive;
+  color: #ffac4a;
+}
