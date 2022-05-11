@@ -167,12 +167,40 @@ hr {
   margin: 5px 0;
 }
 
-.pcBuild {
+.books {
   padding-bottom: 100px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.pcBuild p {
+.books p {
+  max-width: 175px;
+  text-align: center;
+  font-size: small;
+}
+
+.books img {
+  width: 175px;
+  height: 250px;
+}
+
+.pcBuild {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pcBuild img {
   max-width: 500px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+table {
+  width: 500px;
 }
 
 .interests {

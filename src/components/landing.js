@@ -2,6 +2,11 @@ import "./landing.css";
 import Nav from "./nav";
 import pic from "../static/ResumePicCircle.png";
 import hike from "../static/hike.JPG";
+import goggins from "../static/goggins.jpg";
+import astro from "../static/calebScharf.jpg";
+import shf from "../static/slaughterhouse.jpg";
+import robotics from "../static/robotics.jpg";
+import desk from "../static/desk.jpg";
 import React, { useState, useEffect } from "react";
 import {
   FaLinkedin,
@@ -15,7 +20,6 @@ function Landing() {
   const [isActive, setActive] = useState("false");
 
   useEffect(() => {
-    console.log(window.scrollY);
     const onScroll = () => {
       if (window.scrollY > 900) {
         setActive(false);
@@ -129,8 +133,9 @@ function Landing() {
               Some of my other interests include{" "}
               <span className="orangeText">astronomy</span>,{" "}
               <span className="orangeText">hiking</span>, history, movies,
-              reading, <span className="orangeText">robotics</span>, running,
-              swimming, and <span className="orangeText">travelling</span>.
+              <span className="orangeText">music</span>, philosophy, reading,{" "}
+              <span className="orangeText">robotics</span>, running, swimming,
+              and <span className="orangeText">travelling</span>.
               <br />
               <br />
               My dream and long-term goal is to one day start a robotics company
@@ -141,36 +146,94 @@ function Landing() {
             </p>
           </div>
           <h1 data-aos="fade-right">Currently reading</h1>
-          <div className="pcBuild" data-aos="fade-right">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              pretium ultricies ipsum non lobortis. Mauris nibh turpis, interdum
-              et elit a, lobortis pharetra sapien. Phasellus risus purus,
-              placerat at augue at, porta malesuada risus. Phasellus fringilla
-              mattis lectus blandit rhoncus. Mauris velit lorem, faucibus tempor
-              arcu vel, consectetur porttitor quam. Etiam nec semper erat, in
-              bibendum justo. Vivamus pretium ligula varius tortor posuere, ac
-              condimentum dui eleifend. Pellentesque tempus, nunc pharetra
-              finibus semper, purus leo scelerisque mi, at convallis nulla lorem
-              in neque. Phasellus sollicitudin ipsum et leo eleifend pharetra.
+          <div className="books">
+            <p data-aos="fade-right">
+              <img src={astro} alt="Copernicus Complex" />
+              The Copernicus Complex
+              <br /> by Caleb Scharf
+              <br />
+              <br />
+              Perfect if you like to ponder if the existence of intelligent life
+              in the universe is rare or ubiquitous.
+            </p>
+            <p data-aos="fade-right">
+              <img src={goggins} alt="Can't Hurt Me" />
+              Can't Hurt Me
+              <br /> by David Goggins
+              <br />
+              <br />
+              Incredible, inspirational story by a Navy SEAL.
+            </p>
+            <p data-aos="fade-left">
+              <img src={robotics} alt="Learn Robotics Programming" />
+              Learn Robotics w Raspberry Pi
+              <br /> by Matt Timmons-Brown
+              <br />
+              <br />
+              I'm learning the basics of robotics, this books is great for
+              beginners.
+            </p>
+            <p data-aos="fade-left">
+              <img src={shf} alt="Slaughterhouse-Five" />
+              Slaughterhouse-Five
+              <br /> by Kurt Vonnegut Jr.
+              <br />
+              <br />
+              Not currently reading this one but it is one of my all-time
+              favorite books.
             </p>
           </div>
-          <h1 align="right" data-aos="fade-left">
-            I like to build PCs
+          <h1 align="center" data-aos="fade-down">
+            I enjoy building PCs
           </h1>
-          <div className="pcBuild" align="right" data-aos="fade-left">
+          <div className="pcBuild" data-aos="fade-down">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              pretium ultricies ipsum non lobortis. Mauris nibh turpis, interdum
-              et elit a, lobortis pharetra sapien. Phasellus risus purus,
-              placerat at augue at, porta malesuada risus. Phasellus fringilla
-              mattis lectus blandit rhoncus. Mauris velit lorem, faucibus tempor
-              arcu vel, consectetur porttitor quam. Etiam nec semper erat, in
-              bibendum justo. Vivamus pretium ligula varius tortor posuere, ac
-              condimentum dui eleifend. Pellentesque tempus, nunc pharetra
-              finibus semper, purus leo scelerisque mi, at convallis nulla lorem
-              in neque. Phasellus sollicitudin ipsum et leo eleifend pharetra.
+              Another hobby of mine is building PCs, my current PC build
+              consists of:
             </p>
+            <table>
+              <tr>
+                <td>CPU</td>
+                <td align="right">AMD Ryzen 9 5900X</td>
+              </tr>
+              <tr>
+                <td>CPU cooler</td>
+                <td align="right">Noctua NH-D15 chromax.black</td>
+              </tr>
+              <tr>
+                <td>Motherboard</td>
+                <td align="right">MSI MAG X570 Tomahawk WIFI</td>
+              </tr>
+              <tr>
+                <td>Memory</td>
+                <td align="right">Corsair Vengeance LPX 16GB</td>
+              </tr>
+              <tr>
+                <td>Storage</td>
+                <td align="right">Samsung 970 Evo Plus 1TB</td>
+              </tr>
+              <tr>
+                <td>Graphics Card</td>
+                <td align="right">MSI GeForce RTX 3060 Ventus 3X</td>
+              </tr>
+              <tr>
+                <td>Power Supply</td>
+                <td align="right">Corsair RM850x</td>
+              </tr>
+              <tr>
+                <td>Case</td>
+                <td align="right">Corsair 4000D Airflow ATX</td>
+              </tr>
+              <tr>
+                <td>Monitor</td>
+                <td align="right">LG 34-Inch Curved UltraWide</td>
+              </tr>
+              <tr>
+                <td>Speakers</td>
+                <td align="right">M-Audio BX5 Studio Monitors</td>
+              </tr>
+            </table>
+            <img src={desk} alt="my comp" />
           </div>
         </section>
       </main>
