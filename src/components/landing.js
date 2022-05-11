@@ -2,7 +2,12 @@ import "./landing.css";
 import Nav from "./nav";
 import pic from "../static/ResumePicCircle.png";
 import hike from "../static/hike.JPG";
-import { FaLinkedin, FaTwitterSquare, FaGithubSquare } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaTwitterSquare,
+  FaGithubSquare,
+  FaAngleDoubleDown,
+} from "react-icons/fa";
 
 function Landing() {
   return (
@@ -33,6 +38,9 @@ function Landing() {
         >
           <FaLinkedin />
         </a>
+        <a href="#about" className="downArrow">
+          <FaAngleDoubleDown />
+        </a>
       </div>
       <main>
         <section className="landingSection">
@@ -45,31 +53,32 @@ function Landing() {
             <hr></hr>
             <p align="right">
               I'm a driven full-stack{" "}
-              <span className="jobTitle">software engineer</span>, currently
+              <span className="orangeText">software engineer</span>, currently
               searching for a full-time position. I'm dedicated to expanding
               knowledge and taking on challenging problems. Highly motivated,
               enthusiastic, and eager to learn new technologies and methods.
             </p>
           </div>
         </section>
-        <section className="about">
-          <h1>A little about myself</h1>
+        <section className="about" id="about">
+          <h1 data-aos="fade-right">A little about myself</h1>
           <div className="aboutMe">
-            <p>
-              Hi, I'm <span className="jobTitle">Justin</span>. I'm a{" "}
-              <span className="jobTitle">software engineer</span> currently
+            <p data-aos="fade-right">
+              Hi, I'm <span className="orangeText">Justin</span>. I'm a{" "}
+              <span className="orangeText">software engineer</span> currently
               looking for a full-time position. My desire to learn to code
               started back in 2018 after my time in the military. I decided to
               enroll in a coding bootcamp and from there learned numerous
-              skills, mainly <span className="jobTitle">JavaScript</span> with
-              the framework <span className="jobTitle">React</span>,{" "}
-              <span className="jobTitle">HTML</span>, and{" "}
-              <span className="jobTitle">CSS</span>. Since then I have also been
-              persuing my degree in Computer Science, where I have learned even
-              more languages such as <span className="jobTitle">Python</span>{" "}
-              and <span className="jobTitle">C++</span>.
+              skills, mainly <span className="orangeText">JavaScript</span> with
+              the framework <span className="orangeText">React</span>,{" "}
+              <span className="orangeText">HTML</span>, and{" "}
+              <span className="orangeText">CSS</span>. Since then I have also
+              been persuing my degree in Computer Science, where I have learned
+              even more languages such as{" "}
+              <span className="orangeText">Python</span> and{" "}
+              <span className="orangeText">C++</span>.
             </p>
-            <p align="right">
+            <p align="right" data-aos="fade-left">
               Technologies I'm currently learning:
               <ul>
                 <li>Go</li>
@@ -79,18 +88,28 @@ function Landing() {
               </ul>
             </p>
           </div>
-          <h1 align="right">Interests</h1>
+          <h1 align="right" data-aos="fade-left">
+            Interests
+          </h1>
           <div className="interests" align="right">
-            <img src={hike} alt="Redwood Hike" />
-            <p>
-              My dream and very long term goal is to one day start a robotics
-              company that would develop autonomous robots or rovers for space
+            <img src={hike} alt="Redwood Hike" data-aos="fade-right" />
+            <p data-aos="fade-left">
+              Some of my other interests include{" "}
+              <span className="orangeText">astronomy</span>, hiking, history,
+              movies, reading, <span className="orangeText">robotics</span>,
+              running, swimming, and{" "}
+              <span className="orangeText">travelling</span>.
+              <br />
+              <br />
+              My dream and long-term goal is to one day start a robotics company
+              that would develop autonomous robots or rovers for space
               exploration, specifically a submersible rover that would be able
-              to explore the methane lakes of Saturn’s moon, Titan.
+              to explore the methane lakes of Saturn’s moon,{" "}
+              <span className="orangeText">Titan</span>.
             </p>
           </div>
-          <h1>Currently reading</h1>
-          <div className="pcBuild">
+          <h1 data-aos="fade-right">Currently reading</h1>
+          <div className="pcBuild" data-aos="fade-right">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               pretium ultricies ipsum non lobortis. Mauris nibh turpis, interdum
@@ -104,8 +123,10 @@ function Landing() {
               in neque. Phasellus sollicitudin ipsum et leo eleifend pharetra.
             </p>
           </div>
-          <h1 align="right">I like to build PCs</h1>
-          <div className="pcBuild" align="right">
+          <h1 align="right" data-aos="fade-left">
+            I like to build PCs
+          </h1>
+          <div className="pcBuild" align="right" data-aos="fade-left">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               pretium ultricies ipsum non lobortis. Mauris nibh turpis, interdum
