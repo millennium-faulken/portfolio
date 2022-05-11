@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import resume from "../static/resume.pdf";
-import "./landing.css";
 
 function Nav() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);

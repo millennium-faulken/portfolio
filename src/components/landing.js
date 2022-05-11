@@ -1,5 +1,4 @@
 import "./landing.css";
-import Nav from "./nav";
 import pic from "../static/ResumePicCircle.png";
 import hike from "../static/hike.JPG";
 import goggins from "../static/goggins.jpg";
@@ -35,10 +34,7 @@ function Landing() {
   }, [isActive, setActive]);
 
   return (
-    <div className="App" id="top">
-      <header>
-        <Nav />
-      </header>
+    <div id="top">
       <div className="deco"></div>
       <div className="socialLinks">
         <a

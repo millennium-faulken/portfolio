@@ -1,12 +1,8 @@
 import "./landing.css";
-import Nav from "./nav";
 
 export default function Projects() {
   return (
-    <div className="App">
-      <header>
-        <Nav />
-      </header>
+    <div>
       <main>
         <section>
           <div>

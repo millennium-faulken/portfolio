@@ -6,11 +6,13 @@ import reportWebVitals from "./reportWebVitals";
 import Landing from "./components/landing";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
+import Nav from "./components/nav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Nav />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/projects" element={<Projects />} />
