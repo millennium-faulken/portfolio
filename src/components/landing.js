@@ -14,11 +14,8 @@ import {
 function Landing() {
   const [isActive, setActive] = useState("false");
 
-  const handleClick = () => {
-    setActive(!isActive);
-  };
-
   useEffect(() => {
+    console.log(window.scrollY);
     const onScroll = () => {
       if (window.scrollY > 900) {
         setActive(false);
@@ -63,14 +60,14 @@ function Landing() {
         </a>
         <a
           href="#about"
-          onClick={handleClick}
+          // onClick={handleClick}
           className={isActive ? "downArrow" : "hide"}
         >
           <FaAngleDoubleDown />
         </a>
         <a
           href="#top"
-          onClick={handleClick}
+          // onClick={handleClick}
           className={!isActive ? "upArrow" : "hide"}
         >
           <FaAngleDoubleUp />
@@ -88,9 +85,11 @@ function Landing() {
             <p align="right">
               I'm a driven full-stack{" "}
               <span className="orangeText">software engineer</span>, currently
-              searching for a full-time position. I'm dedicated to expanding
-              knowledge and taking on challenging problems. Highly motivated,
-              enthusiastic, and eager to learn new technologies and methods.
+              searching for a full-time position in{" "}
+              <span className="orangeText">Austin</span>, Texas. I'm dedicated
+              to expanding knowledge and taking on challenging problems. Highly
+              motivated, enthusiastic, and eager to learn new technologies and
+              methods.
             </p>
           </div>
         </section>

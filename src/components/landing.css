@@ -229,7 +229,7 @@ footer h5 {
 
 @keyframes down {
   0% {
-    transform: translateY(0px);    
+    transform: translateY(0px);
   }
   25% {
     transform: translateY(5px);
@@ -247,7 +247,7 @@ footer h5 {
 
 @keyframes up {
   100% {
-    transform: translateY(0px);    
+    transform: translateY(0px);
   }
   75% {
     transform: translateY(-5px);
