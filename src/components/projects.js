@@ -1,6 +1,7 @@
 import urgently from "../static/urgent.png";
 import bubble from "../static/bubble.PNG";
 import messages from "../static/messages.png";
+import quake from "../static/quake.JPG";
 import { BiMessageRoundedError } from "react-icons/bi";
 import "./projects.css";
 
@@ -9,6 +10,22 @@ export default function Projects() {
     <main className="projects">
       <section className="projectSection">
         <h1 className="projectsTitle">Some things I'm working on</h1>
+        <div className="divProject">
+          <div className="quake" align="left">
+            <h2>Quake</h2>
+            <p>
+              Utilizes the USGS API to search for recent earthquakes.
+            </p>
+            <ul>
+              <li>jQuery</li>
+              <li>Php</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Ajax</li>
+            </ul>
+          </div>
+          <img src={quake} alt="messages" />
+        </div>
         <div className="divProject">
           <img src={bubble} alt="bubble" />
           <div className="bubble" align="right">
