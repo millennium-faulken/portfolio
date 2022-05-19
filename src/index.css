@@ -23,11 +23,20 @@ nav {
   box-shadow: 5px 5px 5px 5px #36a1d4;
 }
 
+@media (max-width: 900px) {
+  nav {
+    background-color: transparent;
+  box-shadow: none;
+
+  }
+}
+
 @media (max-width: 700px) {
   nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: transparent;
   }
   ul {
     padding-left: 0px;
