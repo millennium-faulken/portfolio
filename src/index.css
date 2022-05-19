@@ -25,6 +25,8 @@ nav {
 
 @media (max-width: 500px) {
   nav {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 0px 10px;
   }
@@ -44,12 +46,5 @@ nav {
 
   ul a {
     margin-left: 10px;
-  }
-}
-
-@media (max-width: 400px) {
-  nav {
-    display: flex;
-    flex-direction: column;
   }
 }
