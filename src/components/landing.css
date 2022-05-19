@@ -351,6 +351,8 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 350px) {
-  
+@media (max-width: 400px) {
+  .landingSection {
+    margin-top: 0px;
+  }
 }

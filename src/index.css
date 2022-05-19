@@ -45,6 +45,7 @@ nav {
 
 @media (max-width: 400px) {
   nav {
+    position: relative !important;
     display: flex;
     flex-direction: column;
   }
