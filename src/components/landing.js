@@ -111,7 +111,7 @@ function Landing() {
               <span className="orangeText">Python</span> and{" "}
               <span className="orangeText">C++</span>.
             </p>
-            <p align="right" data-aos="fade-left">
+            <p className="tech" align="right" data-aos="fade-left">
               Technologies I'm currently learning:
               <li>Go</li>
               <li>Amazon Web Services</li>
@@ -141,7 +141,7 @@ function Landing() {
               <span className="orangeText">Titan</span>.
             </p>
           </div>
-          <h1 data-aos="fade-right">Currently reading</h1>
+          <h1 className="booksTitle" data-aos="fade-right">Currently reading</h1>
           <div className="books">
             <p data-aos="fade-right">
               <img src={astro} alt="Copernicus Complex" />
