@@ -350,3 +350,7 @@ body::-webkit-scrollbar-thumb {
     display: none;
   }
 }
+
+@media (max-width: 350px) {
+  
+}
