@@ -191,43 +191,63 @@ function Landing() {
               <tbody>
                 <tr>
                   <td>CPU</td>
-                  <td className="orangeText" align="right">AMD Ryzen 9 5900X</td>
+                  <td className="orangeText" align="right">
+                    AMD Ryzen 9 5900X
+                  </td>
                 </tr>
                 <tr>
                   <td>CPU cooler</td>
-                  <td className="orangeText" align="right">Noctua NH-D15 chromax.black</td>
+                  <td className="orangeText" align="right">
+                    Noctua NH-D15 chromax.black
+                  </td>
                 </tr>
                 <tr>
                   <td>Motherboard</td>
-                  <td className="orangeText" align="right">MSI MAG X570 Tomahawk WIFI</td>
+                  <td className="orangeText" align="right">
+                    MSI MAG X570 Tomahawk WIFI
+                  </td>
                 </tr>
                 <tr>
                   <td>Memory</td>
-                  <td className="orangeText" align="right">Corsair Vengeance LPX 16GB</td>
+                  <td className="orangeText" align="right">
+                    Corsair Vengeance LPX 16GB
+                  </td>
                 </tr>
                 <tr>
                   <td>Storage</td>
-                  <td className="orangeText" align="right">Samsung 970 Evo Plus 1TB</td>
+                  <td className="orangeText" align="right">
+                    Samsung 970 Evo Plus 1TB
+                  </td>
                 </tr>
                 <tr>
                   <td>Graphics Card</td>
-                  <td className="orangeText" align="right">MSI GeForce RTX 3060 Ventus 3X</td>
+                  <td className="orangeText" align="right">
+                    MSI GeForce RTX 3060 Ventus 3X
+                  </td>
                 </tr>
                 <tr>
                   <td>Power Supply</td>
-                  <td className="orangeText" align="right">Corsair RM850x</td>
+                  <td className="orangeText" align="right">
+                    Corsair RM850x
+                  </td>
                 </tr>
                 <tr>
                   <td>Case</td>
-                  <td className="orangeText" align="right">Corsair 4000D Airflow ATX</td>
+                  <td className="orangeText" align="right">
+                    Corsair 4000D Airflow ATX
+                  </td>
                 </tr>
                 <tr>
                   <td>Monitor</td>
-                  <td className="orangeText" align="right">LG 34-Inch Curved UltraWide</td>
+                  <td className="orangeText" align="right">
+                    LG 34-Inch Curved UltraWide
+                  </td>
                 </tr>
                 <tr>
                   <td>Speakers</td>
-                  <td className="orangeText" align="right">M-Audio BX5 Studio Monitors</td>
+                  <td className="orangeText" align="right">
+                    M-Audio BX5 Studio Monitors
+                  </td>
                 </tr>
               </tbody>
             </table>

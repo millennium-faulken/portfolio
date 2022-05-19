@@ -34,7 +34,7 @@ function Nav() {
       </div>
       <div className="links">
         <ul>
-          <Link to="/">About</Link>
+          <Link className="aboutLink" to="/">About</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
           <Link to={resume} target="_blank" rel="noreferrer">

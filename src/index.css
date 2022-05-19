@@ -25,7 +25,12 @@ nav {
 
 @media (max-width: 500px) {
   nav {
+    justify-content: center;
     padding: 0px 10px;
+  }
+
+  .aboutLink {
+    margin-left: 0px;
   }
 
   ul {
@@ -33,7 +38,6 @@ nav {
   }
 
   .links {
-
     display: flex;
     justify-content: space-evenly;
   }
