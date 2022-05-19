@@ -311,6 +311,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .landingInfo img {
+    max-width: 250px;
     margin: 0;
   }
 
