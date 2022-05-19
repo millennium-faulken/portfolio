@@ -292,3 +292,61 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
   border-radius: 8px;
 }
+
+@media (max-width: 500px) {
+  main {
+    max-width: 300px;
+    margin: 0px auto;
+    min-height: 100vh;
+  }
+
+  .landingSection {
+    margin-top: 50px;
+  }
+
+  .landingInfo {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landingInfo img {
+    margin: 0;
+  }
+
+  .landingInfo h1 {
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .landingInfo p {
+    text-align: center;
+  }
+
+  .name {
+    display: block;
+    font-size: 25px;
+  }
+
+  hr {
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 255, 255, 0),
+      rgba(255, 255, 255, 1),
+      rgb(255, 255, 255, 0)
+    );
+  }
+
+  .socialLinks {
+    right: 15px;
+  }
+
+  .socialLinks a {
+    margin-bottom: 15px;
+    color: #ffac4a;
+  }
+
+  .deco {
+    display: none;
+  }
+}

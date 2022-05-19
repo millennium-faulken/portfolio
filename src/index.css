@@ -22,3 +22,23 @@ nav {
   background-color: #36a1d4;
   box-shadow: 5px 5px 5px 5px #36a1d4;
 }
+
+@media (max-width: 500px) {
+  nav {
+    padding: 0px 10px;
+  }
+
+  ul {
+    padding-left: 0px;
+  }
+
+  .links {
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  ul a {
+    margin-left: 10px;
+  }
+}
