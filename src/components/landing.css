@@ -343,8 +343,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .socialLinks a {
-    margin-bottom: 15px;
-    color: #ffac4a;
+    display: none;
   }
 
   .deco {
