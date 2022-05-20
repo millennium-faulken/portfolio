@@ -36,7 +36,7 @@ function Nav() {
         <ul>
           <Link className="aboutLink" to="/">About</Link>
           <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
+          {/* <Link to="/contact">Contact</Link> */}
           <Link to={resume} target="_blank" rel="noreferrer">
             Resume
           </Link>
