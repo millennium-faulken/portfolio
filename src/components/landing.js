@@ -141,7 +141,9 @@ function Landing() {
               <span className="orangeText">Titan</span>.
             </p>
           </div>
-          <h1 className="booksTitle" data-aos="fade-right">Currently reading</h1>
+          <h1 className="booksTitle" data-aos="fade-right">
+            Currently reading
+          </h1>
           <div className="books">
             <p data-aos="fade-right">
               <img src={astro} alt="Copernicus Complex" />
