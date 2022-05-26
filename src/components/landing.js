@@ -79,10 +79,10 @@ function Landing() {
               I'm a full-stack{" "}
               <span className="orangeText">software engineer</span> currently
               searching for a full-time position in{" "}
-              <span className="orangeText">Austin</span>, Texas. I'm and
-              dedicated to expanding knowledge and taking on challenging
-              problems. Driven, highly motivated, enthusiastic, and eager to
-              learn new technologies and methods.
+              <span className="orangeText">Austin</span>, Texas. I'm dedicated
+              to expanding knowledge and taking on challenging problems. Driven,
+              highly motivated, enthusiastic, and eager to learn new
+              technologies and methods.
             </p>
           </div>
         </section>
