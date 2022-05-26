@@ -75,13 +75,22 @@
   color: #ffac4a;
 }
 
-@media (max-width: 900px) {
-  .projectsList {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .tech ul {
-    text-align: left;
-  }
+@media (max-width: 900px) { 
+.projectsList{
+  flex-direction: column;
+  align-items: center;
 }
+
+.tech ul {
+  text-align: left;
+}
+}
+
+@media (max-width: 500px) { 
+    /* .projectItem h1 {
+      font-size: x-large;
+    } */
+    .projectItem {
+      width: auto;
+    }
+  }
