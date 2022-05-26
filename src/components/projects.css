@@ -7,29 +7,65 @@
   font-size: xx-large;
 }
 
-.divProject {
+.projectsList {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 100px 0;
+  flex-wrap: wrap;
 }
 
-.projects img {
-  width: 500px;
+.projectItem {
+  width: 400px;
 }
 
-.bubble h2 {
+.projectItem h1 {
+  color: #ffac4a;
+  margin-bottom: 0;
+  font-size: xx-large;
+}
+
+.projectItem h1 a {
+  color: #ffac4a;
+}
+
+.projectItem p {
+  margin-top: 0;
+}
+
+.bubble {
   font-family: "Fugaz One", cursive;
   color: #ffac4a;
 }
 
-.urgent h2 {
+.urgent {
   font-family: "Knewave", cursive;
   font-weight: lighter;
   color: #ffac4a;
 }
 
-.messages h2 {
+.messages {
   font-family: "Caveat", cursive;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+}
+
+.tech ul {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.tech ul p {
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.tech a {
+  margin: 10px 0 0 0;
+  font-size: xx-large;
   color: #ffac4a;
 }
