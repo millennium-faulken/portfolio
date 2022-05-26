@@ -87,9 +87,9 @@
 }
 
 @media (max-width: 500px) { 
-    /* .projectItem h1 {
+    .projectItem h1 {
       font-size: x-large;
-    } */
+    }
     .projectItem {
       width: auto;
     }
