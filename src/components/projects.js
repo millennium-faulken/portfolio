@@ -175,6 +175,9 @@ export default function Projects() {
           </div>
         </div>
       </section>
+      <footer>
+        <h5>Justin Faulkenberry 2021</h5>
+      </footer>
     </main>
   );
 }
