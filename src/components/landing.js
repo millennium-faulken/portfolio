@@ -76,13 +76,13 @@ function Landing() {
             </h1>
             <hr></hr>
             <p align="right">
-              I'm a driven full-stack{" "}
-              <span className="orangeText">software engineer</span>, currently
+              I'm a full-stack{" "}
+              <span className="orangeText">software engineer</span> currently
               searching for a full-time position in{" "}
-              <span className="orangeText">Austin</span>, Texas. I'm dedicated
-              to expanding knowledge and taking on challenging problems. Highly
-              motivated, enthusiastic, and eager to learn new technologies and
-              methods.
+              <span className="orangeText">Austin</span>, Texas. I'm and
+              dedicated to expanding knowledge and taking on challenging
+              problems. Driven, highly motivated, enthusiastic, and eager to
+              learn new technologies and methods.
             </p>
           </div>
         </section>
@@ -105,7 +105,7 @@ function Landing() {
               <span className="orangeText">C++</span>. I have also worked
               extensively <span className="orangeText">C#</span>.
             </p>
-            <p className="tech" align="right" data-aos="fade-left">
+            <p className="aboutTech" align="right" data-aos="fade-left">
               Technologies I'm currently learning:
               <li>Go</li>
               <li>Amazon Web Services</li>
@@ -200,7 +200,7 @@ function Landing() {
           <h1 align="center" data-aos="fade-down">
             I enjoy building PCs
           </h1>
-          <div className="pcBuild" >
+          <div className="pcBuild">
             <p data-aos="fade-down">
               Another hobby of mine is building PCs, my current PC build
               consists of:
@@ -269,7 +269,7 @@ function Landing() {
                 </tr>
               </tbody>
             </table>
-            <img src={desk} alt="my comp" data-aos="fade-up"/>
+            <img src={desk} alt="my comp" data-aos="fade-up" />
           </div>
         </section>
       </main>
