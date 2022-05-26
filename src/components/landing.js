@@ -274,7 +274,7 @@ function Landing() {
         </section>
       </main>
       <footer>
-        <h5>&#169; Justin Faulkenberry 2021</h5>
+        <h5>Justin Faulkenberry 2021</h5>
       </footer>
     </div>
   );
