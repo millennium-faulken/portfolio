@@ -6,6 +6,7 @@ import astro from "../static/calebScharf.jpg";
 import shf from "../static/slaughterhouse.jpg";
 import robotics from "../static/robotics.jpg";
 import desk from "../static/desk.jpg";
+import cert from "../static/mtacert.png";
 import React, { useState, useEffect } from "react";
 import {
   FaLinkedin,
@@ -58,18 +59,10 @@ function Landing() {
         >
           <FaLinkedin />
         </a>
-        <a
-          href="#about"
-          // onClick={handleClick}
-          className={isActive ? "downArrow" : "hide"}
-        >
+        <a href="#about" className={isActive ? "downArrow" : "hide"}>
           <FaAngleDoubleDown />
         </a>
-        <a
-          href="#top"
-          // onClick={handleClick}
-          className={!isActive ? "upArrow" : "hide"}
-        >
+        <a href="#top" className={!isActive ? "upArrow" : "hide"}>
           <FaAngleDoubleUp />
         </a>
       </div>
@@ -98,27 +91,50 @@ function Landing() {
           <div className="aboutMe">
             <p data-aos="fade-right">
               Hi, I'm <span className="orangeText">Justin</span>. I'm a{" "}
-              <span className="orangeText">software engineer</span> currently
-              looking for a full-time position. My desire to learn to code
-              started back in 2018 after my time in the military. I decided to
-              enroll in a coding bootcamp and from there learned numerous
-              skills, mainly <span className="orangeText">JavaScript</span>, its
-              framework <span className="orangeText">React</span>(which this
-              site is built with), <span className="orangeText">HTML</span>, and{" "}
+              <span className="orangeText">software engineer</span>. My desire
+              to learn to code started back in 2018 after my time in the
+              military. I decided to enroll in a coding bootcamp and from there
+              learned numerous skills, mainly{" "}
+              <span className="orangeText">JavaScript</span>, its framework{" "}
+              <span className="orangeText">React</span>(which this site is built
+              with), <span className="orangeText">HTML</span>, and{" "}
               <span className="orangeText">CSS</span>. Since then I have also
               been persuing my degree in Computer Science, where I have learned
               even more languages such as{" "}
               <span className="orangeText">Python</span> and{" "}
-              <span className="orangeText">C++</span>.
+              <span className="orangeText">C++</span>. I have also worked
+              extensively <span className="orangeText">C#</span>.
             </p>
             <p className="tech" align="right" data-aos="fade-left">
               Technologies I'm currently learning:
               <li>Go</li>
               <li>Amazon Web Services</li>
               <li>Unity</li>
-              <li>C#</li>
               <li>Php</li>
             </p>
+          </div>
+          <div className="certifications">
+            <a
+              href="https://www.credly.com/badges/833e4313-2db1-45f9-a16d-13442853c82e/public_url"
+              target="_blank"
+              rel="noreferrer"
+              data-aos="fade-up"
+            >
+              <img src={cert} alt="mta cert" />
+            </a>
+            <a
+              href="https://www.credly.com/badges/833e4313-2db1-45f9-a16d-13442853c82e/public_url"
+              target="_blank"
+              rel="noreferrer"
+              data-aos="fade-up"
+            >
+              <p>
+                MTA: Software Development Fundamentals - Certified 2022
+                <br />
+                Issued by: Microsoft
+                <br />
+              </p>
+            </a>
           </div>
           <h1 align="right" data-aos="fade-left">
             Interests
@@ -128,7 +144,7 @@ function Landing() {
             <p data-aos="fade-left">
               Some of my other interests include{" "}
               <span className="orangeText">astronomy</span>,{" "}
-              <span className="orangeText">hiking</span>, history, movies,
+              <span className="orangeText">hiking</span>, history, movies,{" "}
               <span className="orangeText">music</span>, philosophy, reading,{" "}
               <span className="orangeText">robotics</span>, running, swimming,
               and <span className="orangeText">travelling</span>.
@@ -184,76 +200,76 @@ function Landing() {
           <h1 align="center" data-aos="fade-down">
             I enjoy building PCs
           </h1>
-          <div className="pcBuild" data-aos="fade-down">
-            <p>
+          <div className="pcBuild" >
+            <p data-aos="fade-down">
               Another hobby of mine is building PCs, my current PC build
               consists of:
             </p>
             <table>
               <tbody>
                 <tr>
-                  <td>CPU</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">CPU</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     AMD Ryzen 9 5900X
                   </td>
                 </tr>
                 <tr>
-                  <td>CPU cooler</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">CPU cooler</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     Noctua NH-D15 chromax.black
                   </td>
                 </tr>
                 <tr>
-                  <td>Motherboard</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Motherboard</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     MSI MAG X570 Tomahawk WIFI
                   </td>
                 </tr>
                 <tr>
-                  <td>Memory</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Memory</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     Corsair Vengeance LPX 16GB
                   </td>
                 </tr>
                 <tr>
-                  <td>Storage</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Storage</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     Samsung 970 Evo Plus 1TB
                   </td>
                 </tr>
                 <tr>
-                  <td>Graphics Card</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Graphics Card</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     MSI GeForce RTX 3060 Ventus 3X
                   </td>
                 </tr>
                 <tr>
-                  <td>Power Supply</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Power Supply</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     Corsair RM850x
                   </td>
                 </tr>
                 <tr>
-                  <td>Case</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Case</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     Corsair 4000D Airflow ATX
                   </td>
                 </tr>
                 <tr>
-                  <td>Monitor</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Monitor</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     LG 34-Inch Curved UltraWide
                   </td>
                 </tr>
                 <tr>
-                  <td>Speakers</td>
-                  <td className="orangeText" align="right">
+                  <td data-aos="fade-right">Speakers</td>
+                  <td className="orangeText" align="right" data-aos="fade-left">
                     M-Audio BX5 Studio Monitors
                   </td>
                 </tr>
               </tbody>
             </table>
-            <img src={desk} alt="my comp" />
+            <img src={desk} alt="my comp" data-aos="fade-up"/>
           </div>
         </section>
       </main>

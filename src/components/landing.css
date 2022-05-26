@@ -139,8 +139,18 @@ hr {
 .aboutMe {
   display: flex;
   justify-content: space-between;
+  /* padding-bottom: 100px; */
+}
+
+.certifications {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
   padding-bottom: 100px;
 }
+
 
 .aboutMe p {
   max-width: 500px;
