@@ -8,7 +8,7 @@ export default function Projects() {
       <section className="projectSection">
         <h1 className="projectsTitle">Check out some things I've built</h1>
         <div className="projectsList">
-          <div className="projectItem">
+          <div className="projectItem" data-aos="fade-right">
             <h1 className="messages">
               Messages to no one...{"    "}
               <a
@@ -56,7 +56,7 @@ export default function Projects() {
               </ul>
             </div>
           </div>
-          <div className="projectItem">
+          <div className="projectItem" data-aos="fade-left">
             <h1 className="bubble">
               bubble
               <BiMessageRoundedError />
@@ -89,7 +89,7 @@ export default function Projects() {
               </ul>
             </div>
           </div>
-          <div className="projectItem">
+          <div className="projectItem" data-aos="fade-right">
             <h1 className="quake">
               Quake{"    "}
               <a
@@ -123,7 +123,7 @@ export default function Projects() {
               </ul>
             </div>
           </div>
-          <div className="projectItem">
+          <div className="projectItem" data-aos="fade-left">
             <h1 className="winCalc">Windows Calculator Clone</h1>
             <p>A clone of the Windows Calculator</p>
             <h3>Tech Used:</h3>
@@ -142,7 +142,7 @@ export default function Projects() {
               </ul>
             </div>
           </div>
-          <div className="projectItem">
+          <div className="projectItem" data-aos="fade-right">
             <h1 className="urgent">
               Urgent!{"    "}
               <a
