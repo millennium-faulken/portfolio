@@ -93,7 +93,7 @@ export default function Projects() {
             <h1 className="quake">
               Quake{"    "}
               <a
-                href="https://messagetheworld.netlify.app/"
+                href="http://earthquakewatcher.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
