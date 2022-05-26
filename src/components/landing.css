@@ -341,6 +341,11 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 50px;
   }
 
+  .certifications {
+    display: flex;
+    flex-direction: column;
+  }
+
   .tech {
     text-align: center;
   }
@@ -439,6 +444,10 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
 
+  .certifications {
+    text-align: center;
+  }
+
   .interests {
     flex-direction: column;
     text-align: center;
@@ -458,6 +467,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .pcBuild {
+    overflow: hidden;
     padding-bottom: 50px;
     text-align: center;
   }
