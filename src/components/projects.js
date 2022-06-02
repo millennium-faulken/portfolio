@@ -176,7 +176,7 @@ export default function Projects() {
         </div>
       </section>
       <footer>
-        <h5>Justin Faulkenberry 2021</h5>
+        <h5>Justin Faulkenberry 2022</h5>
       </footer>
     </main>
   );
