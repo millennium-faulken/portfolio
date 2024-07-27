@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
-import resume from "../static/resume.pdf";
+// import resume from "../static/resume.pdf";
 
 function Nav() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -37,9 +37,9 @@ function Nav() {
           <Link className="aboutLink" to="/">About</Link>
           <Link to="/projects">Projects</Link>
           {/* <Link to="/contact">Contact</Link> */}
-          <Link to={resume} target="_blank" rel="noreferrer">
+          {/* <Link to={resume} target="_blank" rel="noreferrer">
             Resume
-          </Link>
+          </Link> */}
         </ul>
       </div>
     </nav>

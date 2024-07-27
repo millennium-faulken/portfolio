@@ -46,13 +46,6 @@ function Landing() {
           <FaGithubSquare />
         </a>
         <a
-          href="https://twitter.com/millennium_flkn"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTwitterSquare />
-        </a>
-        <a
           href="https://www.linkedin.com/in/justin-faulkenberry/"
           target="_blank"
           rel="noreferrer"
